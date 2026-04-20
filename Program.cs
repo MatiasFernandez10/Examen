@@ -44,8 +44,6 @@ class Program
         hola.EstadoDeCuenta();
         hola2.Mostrar();
         hola2.EstadoDeCuenta();
-        decimal montoDeposito = decimal.Parse(Console.ReadLine());
-        hola.Depositar(montoDeposito);
         hola.Mostrar();
     }
 }
